@@ -13,13 +13,13 @@
   background-color: $red;
 }
 
-.tag-grey {
+.tag-green {
   @extend %tag-base;
   color: $white;
   background-color: $green;
 }
 
-.tag-green {
+.tag-gray {
   @extend %tag-base;
   color: $secondary;
   background-color: $border;
