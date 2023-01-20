@@ -9,7 +9,8 @@
     border-radius: 4px;
 
     img {
-      @include pos-center;
+      // absolute 통해서 가운데정렬
+      @include pos-center; // position absolute가 되면 부모의 실제 영역을 기준으로 높이 잡음
       display: block;
       width: 100%;
       height: 100%;
@@ -26,6 +27,7 @@
 
   &-title {
     @include text-style(13, $dark);
+    @include line-clamp(2);
     font-weight: 400;
     line-height: 16px;
   }
